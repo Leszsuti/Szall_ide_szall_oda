@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+    color: white;
+    font-family: "Comic Sans MS", serif;
+    font-size: 20px;
+}
+.cim{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.outside{
+    margin: auto;
+    width: min-content;
+    background-color: #454545;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 68px;
+    display: flex;
+}
+h1{
+    font-size: 80px;
+    white-space: nowrap;
+    margin: auto;
+}
+.gomb{
+    font-family: "Comic Sans MS", serif;
+    font-size: 24px;
+    color: gold;
+    background-color: #454545;
+    border-radius: 28px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.gomb:hover{
+    background-color: rgba(184, 134, 11, 0.19);
+}
+.gomb:active{
+    scale: 0.96;
+}

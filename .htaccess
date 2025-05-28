@@ -1,0 +1,2 @@
+RewriteEngine On
+#RewriteRule ^view/regist_view\.php$ /szalloda/index.php [R=302,L]
